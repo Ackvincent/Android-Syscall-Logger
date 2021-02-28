@@ -14,7 +14,7 @@ Prerequisite
 ## Usage
 
 1. Adjust a little bit your Makefile
-2. ![image-20210228131545707](C:\Users\ccc\AppData\Roaming\Typora\typora-user-images\image-20210228131545707.png)
+2. ![image-20210228131545707](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/1.png)
 3. Build kernel module with "make" command
 4. push kernel module to a certain directory at your phone.
 5. ![image-20210228132042785](C:\Users\ccc\AppData\Roaming\Typora\typora-user-images\image-20210228132042785.png)
