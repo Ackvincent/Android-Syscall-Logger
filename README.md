@@ -51,7 +51,7 @@ Reconfig Your kernel first
 ## Usage
 
 
-1. Excellent, I suppose you have reconfigured your kernel already. We can finally launch our missiel~
+1. Excellent, I suppose you have reconfigured your kernel already. We can finally launch our missile~
 2. First of all, let take a little adjustment on your Makefile
 3. ![1](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/1.png)
 4. You first reset your sys_call_table address by reading /proc/kallsyms, if it shows 0 to you. [echo 0 > /proc/sys/kernel/kptr_restrict] should reveal their true address instead of 0.
