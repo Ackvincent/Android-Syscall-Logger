@@ -48,7 +48,7 @@ Reconfig Your kernel first
 - Once you finish your editing, run make command again which would create a kernel Image and then flash it to your device. 
 - Like this: fastboot flash boot ~/kernel/msm/arch/arm64/boot/Image.lz4-dtb
 
-## Usage
+## Compile & Usage
 
 
 1. Excellent, I suppose you have reconfigured your kernel already. We can finally launch our missile~
