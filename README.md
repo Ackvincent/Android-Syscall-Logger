@@ -46,6 +46,7 @@ Reconfig Your kernel first
 - ![8](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/8.png)
 - ![9](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/9.png)
 - Once you finish your editing, run make command again which would create a kernel Image and then flash it to your device. 
+- ![10](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/10.png)	
 - Like this: fastboot flash boot ~/kernel/msm/arch/arm64/boot/Image.lz4-dtb
 
 ## Compile & Usage
