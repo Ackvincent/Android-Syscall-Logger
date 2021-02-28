@@ -50,7 +50,7 @@ Reconfig Your kernel first
 - Like this:
 - ![11](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/11.png)
 - Check if your kernel is modified.
-- ![12](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/12.png)
+- ![13](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/13.png)
 ## Compile & Usage
 
 
