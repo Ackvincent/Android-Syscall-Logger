@@ -60,33 +60,3 @@ Reconfig Your kernel first
 13. ![5](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/5.png)
 
 ## FAQ
-
-1. How should I reconfig my kernel?
-- Change Directory to your kernel. Use the following command below.
-- ************************************************************************************************
-- export ARCH=arm64 &&
-- export PATH=~/aosp810r1/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:$PATH &&
-- export CROSS_COMPILE=aarch64-linux-android- &&
-- make menuconfig
-- ************************************************************************************************
-- A Gui based menu will pop up on you screen. 
-- ![5](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/7.png)
-- I recommend you use the following setings as I do.
-- CONFIG_MODULES=Y
-- CONFIG_STRICT_MEMORY_RWX=N / CONFIG_DEBUG_RODATA=N
-- CONFIG_DEVMEM=Y
-- CONFIG_DEVKMEM=Y
-- CONFIG_KALLSYMS=Y
-- CONFIG_KALLSYMS_ALL=Y
-- CONFIG_HAVE_KPROBES=Y
-- CONFIG_HAVE_KRETPROBES=Y
-- CONFIG_HAVE_FUNCTION_TRACER=Y
-- CONFIG_HAVE_FUNCTION_GRAPH_TRACER=Y
-- CONFIG_TRACING=Y
-- CONFIG_FTRACE=Y
-- ************************************************************************************************
-- You might ask how to find each of these settings? Tab / , and you shall see a search bar upcoming. Copy it, paste it, and find it.
-- ![8](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/8.png)
-- ![9](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/9.png)
-- Once you finish your editing, run make command again which would create a kernel Image and then flash it to your device. 
-- Like this: fastboot flash boot ~/kernel/msm/arch/arm64/boot/Image.lz4-dtb
