@@ -19,7 +19,7 @@ Environment
 Reconfig Your kernel first
 ---
 
-- Change Directory to your kernel. Use the following command below.
+- Change Directory to your kernel(suppose you kernel folder is located like this ~/aosp810r1/kernel/msm/), then use the following command below.
 - ************************************************************************************************
 - export ARCH=arm64 &&
 - export PATH=~/aosp810r1/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:$PATH &&
