@@ -67,6 +67,7 @@ Reconfig Your kernel first
 14. ![5](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/5.png)
 
 ## FAQ
+- Collecting
 
 ## Credits
 - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04c-Tampering-and-Reverse-Engineering.md
