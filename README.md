@@ -50,18 +50,20 @@ Reconfig Your kernel first
 
 ## Usage
 
-1. Adjust a little bit your Makefile
-2. ![1](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/1.png)
-3. You first reset your sys_call_table address by reading /proc/kallsyms, if it shows 0 to you. [echo 0 > /proc/sys/kernel/kptr_restrict] should reveal their true address instead of 0.
-4. ![6](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/6.png)
-5. Run make to compile the code. Which it should create a file that ends with .ko, that's your kernel module.
-6. push kernel module to a certain directory at your phone.
-7. ![2](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/2.png)
-8. Initialize your module immediately by using [insmod xxxx.ko]
-9. ![3](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/3.png)
-10. Starting monitoring your log from kernel by using [dmesg -w | grep "myLog"]
-11. ![4](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/4.png)
-12. Enjoy your pleasure.
-13. ![5](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/5.png)
+
+1. Excellent, I suppose you have reconfigured your kernel already. We can finally launch our missiel~
+2. First of all, let take a little adjustment on your Makefile
+3. ![1](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/1.png)
+4. You first reset your sys_call_table address by reading /proc/kallsyms, if it shows 0 to you. [echo 0 > /proc/sys/kernel/kptr_restrict] should reveal their true address instead of 0.
+5. ![6](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/6.png)
+6. Run make to compile the code. Which it should create a file that ends with .ko, that's your kernel module.
+7. push kernel module to a certain directory at your phone.
+8. ![2](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/2.png)
+9. Initialize your module immediately by using [insmod xxxx.ko]
+10. ![3](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/3.png)
+11. Starting monitoring your log from kernel by using [dmesg -w | grep "myLog"]
+12. ![4](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/4.png)
+13. Enjoy your pleasure.
+14. ![5](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/5.png)
 
 ## FAQ
