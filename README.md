@@ -37,7 +37,10 @@ Prerequisite
 - export CROSS_COMPILE=aarch64-linux-android- &&
 - make menuconfig
 - ************************************************************************************************
-- A Gui based menu will pop up on you screen. I recommend you use the following setings as I do.
+- A Gui based menu will pop up on you screen. 
+- ![5](https://github.com/Katana-O/Android-Syscall-Logger/blob/main/images/7.png)
+- I recommend you use the following setings as I do.
+- 
 - CONFIG_MODULES=Y
 - CONFIG_STRICT_MEMORY_RWX=N / CONFIG_DEBUG_RODATA=N
 - CONFIG_DEVMEM=Y
@@ -50,6 +53,7 @@ Prerequisite
 - CONFIG_HAVE_FUNCTION_GRAPH_TRACER=Y
 - CONFIG_TRACING=Y
 - CONFIG_FTRACE=Y
+- 
 - ************************************************************************************************
 - Once you finish your editing, run make command again which would create a kernel Image and then flash it to your device. 
 - Like this: fastboot flash boot ~/kernel/msm/arch/arm64/boot/Image.lz4-dtb
