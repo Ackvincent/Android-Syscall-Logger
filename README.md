@@ -72,3 +72,4 @@ Reconfig Your kernel first
 https://github.com/OWASP/owasp-mstg/blob/master/Document/0x04c-Tampering-and-Reverse-Engineering.md
 https://www.anquanke.com/post/id/199898
 https://github.com/invictus1306/Android-syscall-monitor
+https://www.cnblogs.com/lanrenxinxin/p/6289436.html
