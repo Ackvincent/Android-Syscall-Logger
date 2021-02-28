@@ -11,6 +11,11 @@ Prerequisite
 - Root Access
 - Set CONFIG_DEBUG_RODATA to false so you are allowable to rewrite the syscall table.
 
+Environment
+---
+
+- I personly recommend you use Kali Linux as I do, since it look way damn good than Ubuntu
+
 Reconfig Your kernel first
 ---
 
